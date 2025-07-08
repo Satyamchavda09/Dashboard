@@ -8,7 +8,7 @@ function Dashboard() {
     <div className="w-full">
       <h1 className="text-2xl text-blue-950 py-4 px-4 shadow-lg">Dashboard</h1>
 
-      <div className="py-3">
+      <div className="py-3 px-2">
         <ItemBox />
         <SocialBox />
       </div>

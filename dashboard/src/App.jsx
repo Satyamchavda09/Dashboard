@@ -14,7 +14,7 @@ function App() {
         <Sildebar />
       </div>
       <div
-        className={`flex lg:hidden absolute top-0 ${
+        className={`flex lg:hidden fixed top-0 ${
           showSideBar ? "left-0" : "-left-100"
         } transition-all duration-300 w-xs`}>
         <Sildebar menu={() => setShowSideBar(false)} />
